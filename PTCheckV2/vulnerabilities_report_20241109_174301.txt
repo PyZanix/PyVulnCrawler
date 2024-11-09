@@ -1,0 +1,12 @@
+
+[Vulnerability Found] SQL Injection vulnerability on https://www.mcdonalds.com/us/en-us.html#maincontent
+Payload: ' OR 1=1 --
+Suggested Fix: Fix: Use parameterized queries to prevent injection attacks.
+Exploit: An attacker could execute arbitrary SQL commands, potentially gaining access to the database or altering its contents.
+--------------------------------------------------------------------------------
+
+[Vulnerability Found] SQL Injection vulnerability on https://www.mcdonalds.com/us/en-us.html
+Payload: ' OR 1=1 --
+Suggested Fix: Fix: Use parameterized queries to prevent injection attacks.
+Exploit: An attacker could execute arbitrary SQL commands, potentially gaining access to the database or altering its contents.
+--------------------------------------------------------------------------------
